@@ -11,8 +11,6 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Loading",
-  props: {},
-  components: {},
   setup() {
     return {};
   },

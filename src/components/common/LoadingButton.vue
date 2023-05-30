@@ -10,7 +10,6 @@
   </button>
 </template>
 <script lang="ts">
-import { log } from "console";
 import { defineComponent, ref, computed } from "vue";
 import Loading from "./Loading.vue";
 
