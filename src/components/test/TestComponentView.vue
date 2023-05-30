@@ -1,26 +1,22 @@
 <template>
   <div>
-    dkjkjds
+    <loading-button width="200" height="50"></loading-button>
   </div>
 </template>
 
 <script>
-import {defineComponent, ref} from "vue";
+import { defineComponent, ref } from "vue";
+import LoadingButton from "../common/LoadingButton.vue";
 
 export default defineComponent({
-  name: 'ComponentTestView',
+  name: "ComponentTestView",
   components: {
-
+    LoadingButton,
   },
   setup() {
-
-    return {
-
-    };
+    return {};
   },
 });
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
