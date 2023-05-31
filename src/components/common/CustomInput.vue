@@ -1,5 +1,6 @@
 <template>
   <input type="text" />
+  <div>hover text</div>
 </template>
 <script lang="ts">
 import { defineComponent, ref } from "vue";
